@@ -1,5 +1,5 @@
 ---
 deployment:
   task:
-    - export DEPLOYPATH=/home/alexlnrd/apps.alexanderweb.cloud
-    - /bin/rsync -av . $DEPLOYPATH
+    - export DEPLOYPATH=/home/alexlnrd/apps.alexanderweb.cloud/
+    - /bin/cp -R . $DEPLOYPATH
