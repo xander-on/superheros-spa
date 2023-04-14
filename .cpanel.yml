@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/alexlnrd/apps.alexanderweb.cloud/superheros-spa
+    - /bin/rsync -av ./docs $DEPLOYPATH
